@@ -80,8 +80,7 @@ The strategies work as they are designed to. The user only needs to select what 
 # Momentum Change
 The market will always have swings of Up and down. If you want to filter out the noise ( small momentum changes) you simply adjust the moving average values ( increase the value). If you want to focus on every market swing to maximize trading activity, you decrease the moving average values. 
 
-# Verified Performance
-[Myfxbook statistics are public](https://www.myfxbook.com/members/tradeFX4btc/genesisvisiontrade/2559000)
+
 
 
 
