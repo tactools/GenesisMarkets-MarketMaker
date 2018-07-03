@@ -1,13 +1,18 @@
 # GenesisMarkets-MarketMaker
 
-This is a MetaTrader 5 robot to trade at the brokerage GenesisMarkets
+This is a MetaTrader 5 robot to trade at the brokerage [GenesisMarkets](https://genesismarkets.io/?ref=780028). 
+
+## Privacy and Security
+You own the bot after payment and I don't have any control over the license or any oversight over your trading. The robot does not require any external DLL requirements to operate on your trading account ensuring that this robot operates solely on your behalf. 
+
+
 ## MetaTrader5 Platform
 
 MetaTrader Expert Advisor market-maker strategy to make money on GenesisMarkets Brokerage. The cost is **32 GVT Tokens** for a lifetime license for One of your Live GenesisMarkets MetaTrader5 accounts. The license is locked to your account number and can not be changed. If you are trading with one BTC account and one ETH account ( account currency of deposits), this will require two separate license. **The number of GVT tokens required to purchase a lifetime license will never increase or decrease.** I would like to create some demand for the GVT token during the alpha phase while we wait for the official release and global adoption.
 
-1. To pay for your license send **only GVT Tokens** to this address 0x0EeAb63bEa8c998ac05b0B2BDaB1526CA03bC298
+1. To pay for your license send **only 32 GVT Tokens** to this address 0xa05174933956a6d0e266fc5fd9804dbbfac42299
 2. Send your GenesisMarkets Account number with your transaction ID to telegram user @Hedgebitcoin
-3. Download the GenesisMarketsWhaleBot.ex5 file from github. 
+3. Download the GenesisMarketsMarketMaker.ex5 file from github. 
 4. Follow the setup guide below. 
 
 # Adding the files to your MetaTrader Platform
@@ -17,7 +22,7 @@ Download the github zip folder to your desktop , extract the contents and prepar
 3. Click on **Open Data Folder** and this will open the file directory where you place the following files
   * Open the **MQL5** folder
   * Open the **Include** folder and place the files from the github zip folder **include** , Overwrite the files if present.
- * Open the **Experts** folder and place the files from the github zip folder **GenesisMarketsMakerBot.ex5** 
+ * Open the **Experts** folder and place the files from the github zip folder **GenesisMarketsMarketMaker.ex5** 
   * restart the platform ( close application and reopen)
   
 # Platform Setup Guide
@@ -36,7 +41,7 @@ Download the github zip folder to your desktop , extract the contents and prepar
 11. You will see a Pop Up Box for figuring the **Inputs** tab, see the Robot Guide below for help.
 12. Within the Pop Up Box, click on **Common** Tab and checkbox the **Allow Automated Trading**
 13. Click the **Auto Trading** Button on the Platform, you want to see a Green Arrow for ON, and Red Arrow for OFF.
-  * Alternatively you can simply double-click the **GenesisMarketsMakerBot** to attach the robot to the most recently selected chart that you have open. 
+  * Alternatively you can simply double-click the **GenesisMarketsMarketMaker** to attach the robot to the most recently selected chart that you have open. 
 # Robot Guide 
 | Input Variable | Value Description |
 | ----------- | ----------- |
@@ -53,7 +58,7 @@ Download the github zip folder to your desktop , extract the contents and prepar
 | MA Data Type| Median Price? Close? Open? etc |
 
 # Market Making
-In genesismarkets we can only buy alt coins and afterwards, sell them at a profit or loss. Market-making is solely buying alt coins and selling them at a profit right after buying them. The duration between buying and selling can be within seconds, minutes, or even hours depending on the trading activity of that altcon.  
+Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards, sell them at a profit or loss. Market-making is solely buying alt coins and selling them at a profit right after buying them. The duration between buying and selling can be within seconds, minutes, or even hours depending on the trading activity of that altcoin.  
 
 [Why Market Making is essential for crypto currency adoption?](https://medium.com/@fx4btc/why-market-making-is-essential-for-all-crypto-currencies-4fb6f8dba5ab)
 
