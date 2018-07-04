@@ -1,6 +1,6 @@
 # GenesisMarkets-MarketMaker
 
-This is a MetaTrader 5 robot to trade at the brokerage [GenesisMarkets](https://genesismarkets.io/?ref=780028). 
+This is a MetaTrader 5 robot to trade at the brokerage [GenesisMarkets](https://genesismarkets.io/?ref=780028). By design this robot is adding liquidity to the exchange (placing Limit orders in the orderbook and waiting for market buy/sells to fill these orders). It is a **passive trading strategy** that waits for market participates to enter and exit the market that use the Order Type **Market Order**.
 
 ## Privacy and Security
 You own the bot after payment and I don't have any control over the license or any oversight over your trading. The robot does not require any external DLL requirements to operate on your trading account ensuring that this robot operates solely on your behalf. 
