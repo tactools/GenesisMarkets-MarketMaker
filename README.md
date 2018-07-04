@@ -46,16 +46,18 @@ Download the github zip folder to your desktop , extract the contents and prepar
 | Input Variable | Value Description |
 | ----------- | ----------- |
 |PlaceBuyFirst | **True** to trade Altcoins, **False** to trade on BTCUSDT |
-|VolumeMarketOrder | Insert the volume size that you want to submit to the market  |
-|VolumeMaxPosition | Insert the maximum volume(number of coins) that you want to accummulate |
-|PumpBotFrequencyInSeconds | How quickly do you want to accumulate the market? A value of **60** equals every minute  |
-|OrderComment | This is the name of your strategy setup therefore you can have multiple strategy configurations on the same market|
-| CommissionPercentage| It cost money to open and close a trade. Put the Percentage fee amount here(times 2)  |
+|VolumeLimitOrder | Insert the volume size that you want to submit to the market  |
+|ScaleOut | **True** Exit your position with the VolumeLimitOrder size. **False** exit 100% of position  |
+|ScaleIn | **True** Enter position with the VolumeLimitOrder size until reaching VolumeMaxPosition. **False** only enter VolumeLimitOrder for open position size  |
+|VolumeLimitOrder | Insert the volume size that you want to submit to the market  |
+|MovingAverageLogic | You can select Moving Average Logic to only participate when market conditions are met   |
 | MA Period A | How many bars(period) do you want to include to calculate the average price? on **MA1**|
 | MA Period B | How many bars(period) do you want to include to calculate the average price? on **MA2**|
-| MA Period C| How many bars(period) do you want to include to calculate the average price? on **MA3** |
 | MA Type | what type of moving average interests you? |
 | MA Data Type| Median Price? Close? Open? etc |
+|OrderComment | This is the name of your strategy setup therefore you can have multiple strategy configurations on the same market|
+|CommissionPercentage| It costs money to open and close a trade. Put the Percentage fee amount here(times 2)  |
+|VolumeMaxPosition | Insert the maximum volume(number of coins) that you want to accummulate |
 
 # Market Making
 Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards, sell them at a profit or loss. Market-making is solely buying alt coins and selling them at a profit right after buying them. The duration between buying and selling can be within seconds, minutes, or even hours depending on the trading activity of that altcoin.  
@@ -83,7 +85,7 @@ GenesisMarkets has an affiliate program where you earn commission for every trad
 The strategies work as they are designed to. The user only needs to select what volume they wish to trade with, the Altcoin that they wish to trade on, and the Chart time-frame they wish to use for the moving average calculations. You also have the ability to change the moving average periods to suit your own view on the market. **The default values are only an example.**
 
 # Momentum Change
-The market will always have swings of Up and down. If you want to filter out the noise (small momentum changes) you simply adjust the moving average values (increase the value). If you want to focus on every market swing to maximize trading activity, you decrease the moving average values. 
+The market will always have swings of Up and down. If you want to filter out the noise (small momentum changes) you simply adjust the moving average values (increase the value). If you want to focus on every market swing to maximize trading activity, you decrease the moving average values. You can also turn off the MovingAverageLogic to ignore the market swings and be a market maker 24/7. 
 
 
 
