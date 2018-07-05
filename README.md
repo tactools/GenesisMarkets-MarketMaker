@@ -73,7 +73,7 @@ Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards
 
 # Adjusting the VolumeMaxPosition
 
-Sometimes you can accumulate your Maximum position size very quickly in an active market.  If you reach the VolumeMaxPosition, increase the size by two times the original amount and start the robot again. This method is called Dollar-Cost-Averaging and it will gradually help you close your position at a profit sooner than later. Therefore, never become too aggressive on your first VolumeMaxPosition size.  Only allocate about 1-10% of your Bitcoin/Ether on your first deployment of the robot. f needed, you can increase the position size later.  
+Sometimes you can accumulate your Maximum position size very quickly in an active market.  If you reach the **VolumeMaxPosition**, increase the size by two times the original amount and start the robot again. This method is called Dollar-Cost-Averaging and it will gradually help you close your position at a profit sooner than later. Therefore, never become too aggressive on your first VolumeMaxPosition size.  Only allocate about 1-10% of your Bitcoin/Ether on your first deployment of the robot. If needed, you can increase the VolumeMaxPosition size later.  
 
 **I would recommend using a small VoumeMaxPosition when you first start the robot and check the progress later.**
 
