@@ -71,6 +71,10 @@ Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards
 3. Decrease spread and in return this attracts more traders
 4. Increase daily volume turn over and in return this attracts more traders
 
+# Adjusting the VolumeMaxPosition
+
+Sometimes you can accumulate your Maximum position very quickly in an active market. I would recommend using a small VoumeMaxPosition when you first start the robot and check the progress later. If you reach the VolumeMaxPosition increase the size by two times the original amount and start the robot again. This method is called Dollar-Cost-Averaging and it will gradually help you close your position at a profit sooner than after. Therefore, never become too aggressive on your first VolumeMaxPosition, allocate about 1-10% of your Bitcoin/Ether to your first setting of the VolumeMaxPosition therefore you can increase the position size later on if needed.  
+
 
 # Profits on Average
 Strategy caclulate the positions profit 24/7 and only exit your positions when you have a profit. The market maker strategy ensures a profit is made before exiting the position and restarting. 
