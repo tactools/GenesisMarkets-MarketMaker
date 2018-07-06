@@ -5,15 +5,21 @@ This is a MetaTrader 5 robot to trade at the brokerage [GenesisMarkets](https://
 ## Privacy and Security
 You own the bot after payment and I don't have any control over the license or any oversight over your trading. The robot does not require any external DLL requirements to operate on your trading account ensuring that this robot operates solely on your behalf. 
 
+## Support, Updates, and Feedback
+Join the [GenesisMarketsTrade](https://t.me/GenesisMarketsTrade) telegram chat group for support.  Updates will be released periodically to improve the performance.  Feedback is highly appreciated. 
 
-## MetaTrader5 Platform
+## Cost for Lifetime License
+**Special Offer:** 50% discount for GVTBTC trading pair only. The cost is 32 GVT if you want to use the robot soley on GVTBTC
 
-MetaTrader Expert Advisor market-maker strategy to make money on GenesisMarkets Brokerage. The cost is **32 GVT Tokens** for a lifetime license for One of your Live GenesisMarkets MetaTrader5 accounts. The license is locked to your account number and can not be changed. If you are trading with one BTC account and one ETH account (account currency of deposits), this will require two separate license. **The number of GVT tokens required to purchase a lifetime license will never increase or decrease.** I would like to create some demand for the GVT token during the alpha phase while we wait for the official release and global adoption.
+The cost is **64 GVT Tokens** for a **lifetime unrestricted license** for One of your Live GenesisMarkets MetaTrader5 accounts. The license is locked to your account number and can not be changed. If you are trading with one BTC account and one ETH account (account currency of deposits), this will require two separate license. **The number of GVT tokens required to purchase a lifetime license will never increase or decrease.** I would like to create some demand for the GVT token during the alpha phase while we wait for the official release and global adoption.
 
-1. To pay for your license send **only 32 GVT Tokens** to this address 0xa05174933956a6d0e266fc5fd9804dbbfac42299
+1. To pay for your license send **only 64 GVT Tokens** to this address 0xa05174933956a6d0e266fc5fd9804dbbfac42299
 2. Send your GenesisMarkets Account number with your transaction ID to telegram user @Hedgebitcoin
 3. Download the GenesisMarketsMarketMaker.ex5 file from github
 4. Follow the setup guide below
+
+## Easy installation
+No prior knowledge about trading , robots, or the use of MetaTrader platform are required. Follow the instructions below for an easy installation process. If you are need help, ask in the support [chat](https://t.me/GenesisMarketsTrade)
 
 # Adding the files to your MetaTrader Platform
 Download the github zip folder to your desktop , extract the contents and prepare moving the files to the appropiate directories from the directions below.
@@ -52,8 +58,6 @@ Download the github zip folder to your desktop , extract the contents and prepar
 |VolumeLimitOrder | Insert the volume size that you want to submit to the market  |
 |MovingAverageLogic | You can select Moving Average Logic to only participate when market conditions are met   |
 | MA Period A | How many bars(period) do you want to include to calculate the average price? on **MA1**|
-| MA Period B | How many bars(period) do you want to include to calculate the average price? on **MA2**|
-| MA Type | what type of moving average interests you? |
 | MA Data Type| Median Price? Close? Open? etc |
 |OrderComment | This is the name of your strategy setup therefore you can have multiple strategy configurations on the same market|
 |CommissionPercentage| It costs money to open and close a trade. Put the Percentage fee amount here(times 2)  |
@@ -79,7 +83,15 @@ Sometimes you can accumulate your Maximum position size very quickly in an activ
 
 
 # Profits on Average
-Strategy caclulate the positions profit 24/7 and only exit your positions when you have a profit. The market maker strategy ensures a profit is made before exiting the position and restarting. 
+The Market-Maker robot will exit your positions at your desired profit. The market maker strategy ensures a profit is made before exiting the position and restarting the market-maker cycle again. The **profit percentage** is fully adjustable. Would you like to make 0.05%, 0.1%, or 1% per cycle (entering your position, and exiting the position). 
+
+# Low Risk vs High Risk
+The Level of risk can be adjusted by two components, **VolumeLimitOrder** and **VolumeMaxPosition**. If you start at a small amount it is safer than starting at a larger amount. Do you want to buy 0.1, 10, or 1000 GVT at a time and how many are you willing to buy? At this current time, these decisions are your choice. In the future, selective risk levels could be an added feature to calculate these values automatically. 
+
+If you use the **MovingAverageLogic** feature you will be trading more conservatively. The MovingAverageLogic filters out some market conditions to ensure the market-making process goes smoothly. If you want to decrease your risk and are willing to sacrifice some profits , please use this feature. 
+
+# Discount Tiers
+Having the lowest commission results in more profits. If you pay less, you make more trades than another user who has to pay a higher commission because your limit orders can be filled before the other user. This means your robot ( market-making) will make you more profit in the longrun by entering and exiting more positions. However, you can still use this robot at the Highest Commission tier and still make money.
 
 # Backtesting
 The core strategy relies on the OrderBook **volume of the bids/ask** that are available on the exchanges. Since this data changes rapidly we can not have an accurate backtest without the orderbook. 
