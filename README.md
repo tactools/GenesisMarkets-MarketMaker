@@ -53,15 +53,15 @@ Download the github zip folder to your desktop , extract the contents and prepar
 | ----------- | ----------- |
 |PlaceBuyFirst | **True** to trade Altcoins, **False** to trade on BTCUSDT |
 |VolumeLimitOrder | Insert the volume size that you want to submit to the market  |
+|VolumeMaxPosition | Insert the maximum volume(number of coins) that you want to accummulate |
 |ScaleOut | **True** Exit your position with the VolumeLimitOrder size. **False** exit 100% of position  |
 |ScaleIn | **True** Enter position with the VolumeLimitOrder size until reaching VolumeMaxPosition. **False** only enter VolumeLimitOrder for open position size  |
-|VolumeLimitOrder | Insert the volume size that you want to submit to the market  |
 |MovingAverageLogic | You can select Moving Average Logic to only participate when market conditions are met   |
 | MA Period A | How many bars(period) do you want to include to calculate the average price? on **MA1**|
 | MA Data Type| Median Price? Close? Open? etc |
 |OrderComment | This is the name of your strategy setup therefore you can have multiple strategy configurations on the same market|
 |CommissionPercentage| It costs money to open and close a trade. Put the Percentage fee amount here(times 2)  |
-|VolumeMaxPosition | Insert the maximum volume(number of coins) that you want to accummulate |
+
 
 # Market Making
 Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards, sell them at a profit or loss. Market-making is solely buying alt coins and selling them at a profit right after buying them. The duration between buying and selling can be within seconds, minutes, or even hours depending on the trading activity of that altcoin.  
