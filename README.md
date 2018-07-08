@@ -60,7 +60,8 @@ Download the github zip folder to your desktop , extract the contents and prepar
 | MA Period A | How many bars(period) do you want to include to calculate the average price? on **MA1**|
 | MA Data Type| Median Price? Close? Open? etc |
 |OrderComment | This is the name of your strategy setup therefore you can have multiple strategy configurations on the same market|
-|CommissionPercentage| It costs money to open and close a trade. Put the Percentage fee amount here(times 2)  |
+|CommissionPercentage| It costs money to open and close a trade. Put the Percentage fee amount here |
+|ProfitPercentage|Put the Profit Percentage amount here (Goal for each cycle) |
 
 
 # Market Making
