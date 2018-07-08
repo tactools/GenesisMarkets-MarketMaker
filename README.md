@@ -105,6 +105,9 @@ The strategies work as they are designed to. The user only needs to select what 
 # Momentum Change
 The market will always have swings of Up and down. If you want to filter out the noise (small momentum changes) you simply adjust the moving average values (increase the value). If you want to focus on every market swing to maximize trading activity, you decrease the moving average values. You can also turn off the MovingAverageLogic to ignore the market swings and be a market maker 24/7. 
 
+#MarketMaker Scanner
+Place the **MarketMaker_Scanner.EX5** into your **MQL5/Experts** Folder and place the **newcomment.mqh** file into the MQL5/Include folder. Restart your MT5 platform. Add the **MarketMaker_Scanner.EX5** to any chart. **YourCommission** value is the cost to Open and Close a position. For example, GenesisMarkets will charge 0.15% to open and 0.15% to close a position without using GVT tokens for any discount. Therefore, in the **YourCommission** value you will place **0.003**. The scanner will then find all markets that have profitable marketmaking conditions that are available for you based on your commission cost. 
+
 
 
 
