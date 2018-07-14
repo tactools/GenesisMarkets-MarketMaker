@@ -62,7 +62,7 @@ Download the github zip folder to your desktop , extract the contents and prepar
 |OrderComment | This is the name of your strategy setup therefore you can have multiple strategy configurations on the same market|
 |CommissionPercentage| It costs money to open and close a trade. Put the Percentage fee amount here |
 |ProfitPercentage|Put the Profit Percentage amount here (Goal for each cycle) |
-|MinimumSpread_SatoshiValue|Prevent MarketMaking unless the spread is equal to OR greater than the Commission+Profit amount |
+|MinimumSpread|Prevent MarketMaking unless the spread is equal to OR greater than the Commission+Profit amount, To turn off place 0 value |
 
 
 # Market Making
