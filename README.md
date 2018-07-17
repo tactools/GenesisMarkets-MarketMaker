@@ -55,14 +55,16 @@ Download the github zip folder to your desktop , extract the contents and prepar
 |VolumeLimitOrder | Insert the volume size that you want to submit to the market  |
 |VolumeMaxPosition | Insert the maximum volume(number of coins) that you want to accummulate |
 |ScaleOut | **True** Exit your position with the VolumeLimitOrder size. **False** exit 100% of position  |
-|ScaleIn | **True** Enter position with the VolumeLimitOrder size until reaching VolumeMaxPosition. **False** only enter VolumeLimitOrder for open position size  |
+|ScaleIn | **True** Enter position with the VolumeLimitOrder size at better than Entry price until reaching VolumeMaxPosition. **False** only enter VolumeLimitOrder for open position size  |
+|PositionBuild | **True** Enter position with the VolumeLimitOrder size at worse Entry price until reaching VolumeMaxPosition. **False** only enter VolumeLimitOrder for open position size  |
 |MovingAverageLogic | You can select Moving Average Logic to only participate when market conditions are met   |
 | MA Period A | How many bars(period) do you want to include to calculate the average price? on **MA1**|
 | MA Data Type| Median Price? Close? Open? etc |
+| MA DEVIATION| Default is 2, can be 2.1+ acts as Standard Deviation from Moving average price to allow trading in tight ranges|
 |OrderComment | This is the name of your strategy setup therefore you can have multiple strategy configurations on the same market|
 |CommissionPercentage| It costs money to open and close a trade. Put the Percentage fee amount here |
 |ProfitPercentage|Put the Profit Percentage amount here (Goal for each cycle) |
-|MinimumSpread|Prevent MarketMaking unless the spread is equal to OR greater than the Commission+Profit amount, To turn off place 0 value |
+|MinimumSpread|Prevent MarketMaking unless the spread is equal to OR greater than the Commission+Profit amount|
 
 
 # Market Making
