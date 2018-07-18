@@ -62,8 +62,8 @@ Download the github zip folder to your desktop , extract the contents and prepar
 | MA Data Type| Median Price? Close? Open? etc |
 | MA DEVIATION| Default is 2, can be 2.1+ acts as Standard Deviation from Moving average price to allow trading in tight ranges|
 |OrderComment | This is the name of your strategy setup therefore you can have multiple strategy configurations on the same market|
-|CommissionPercentage| It costs money to open and close a trade. Put the Percentage fee amount here |
-|ProfitPercentage|Put the Profit Percentage amount here (Goal for each cycle) |
+|CommissionPercentage| Put the Commission fee amount here. If GenesisMarkets fee is 0.15% , place a value of 0.0015 |
+|ProfitPercentage|Put the Profit Percentage amount here (Goal for each cycle). If you want a goal of 0.1% , place a value of 0.001 |
 |MinimumSpread|Prevent MarketMaking unless the spread is equal to OR greater than the Commission+Profit amount|
 
 
