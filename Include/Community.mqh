@@ -76,11 +76,11 @@ string get_direction( ){
       // count how many values to store in the buffer (3)
    //"LastPrice: "  + DoubleToString(mrate[1].close,8) +          
                       
-     if(dAsk_Price < BBUp[1]  && dAsk_Price > BBLow[1]  ){
+     if(dAsk_Price < BBUp[1]  && dAsk_Price > BBLow[1] && dAsk_Price < BBMidle[1] ){
       return("buy");
      }
      
-     if(dBid_Price < BBLow[1] && dBid_Price < BBUp[1] ){
+     if(dBid_Price > BBLow[1] && dBid_Price < BBUp[1]  && dBid_Price > BBMidle[1] ){
        return("sell");
      }
    
