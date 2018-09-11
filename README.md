@@ -16,7 +16,7 @@ The cost is **64 GVT Tokens** for a **lifetime unrestricted license** for One of
 No prior knowledge about trading , robots, or the use of MetaTrader platform are required. Follow the instructions below for an easy installation process. If you are need help, ask in the support [chat](https://t.me/GenesisMarketsTrade)
 
 # Adding the files to your MetaTrader Platform
-Download the github zip folder to your desktop , extract the contents and prepare moving the files to the appropiate directories from the directions below.
+Download the github zip folder to your desktop , extract the contents and prepare moving the files to the appropriate directories from the directions below.
 1. Open Metatrader Platform and locate the Navigation Bar on the Top of platform
 2. Click on **File**
 3. Click on **Open Data Folder** and this will open the file directory where you place the following files
