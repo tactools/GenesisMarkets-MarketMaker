@@ -95,3 +95,18 @@ string get_direction( ){
    }
    
 }
+
+double get_ma_deviation(){
+
+   CopyBuffer(MA_handle_1,0,0, MA_PERIOD_A, BBMidle);
+   CopyBuffer(MA_handle_1,1,0, MA_PERIOD_A, BBUp);
+   CopyBuffer(MA_handle_1,2,0, MA_PERIOD_A, BBLow);
+   
+   ArraySetAsSeries(BBUp,true);
+   ArraySetAsSeries(BBLow,true);
+   ArraySetAsSeries(BBMidle,true);
+   
+   double width = BBUp[1] - BBLow[1];
+   
+   return(width);
+}
