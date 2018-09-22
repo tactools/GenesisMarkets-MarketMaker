@@ -1,7 +1,7 @@
 #property copyright "Copyright 2018, FX4BTC"
 #property link      "https://github.com/fx4btc"
 #property description "community driven projects"
-#property version "1.13" // @hedgebitcoin same version number
+#property version "1.15" // @hedgebitcoin same version number
 
 input bool   PlaceBuyLimitFirst        = true;
 input bool   MovingAverageLogic        = true;
@@ -36,7 +36,7 @@ bool init_Indicators(string what_market){
 }
 
 
-string get_direction( ){
+string get_direction(double dBid_Price){
    // use the logic 
    if(MovingAverageLogic){
    //--- do we have enough bars to work with
@@ -46,7 +46,7 @@ string get_direction( ){
       Print("We have less than enough bars on the chart, Robot will wait for more bars before deciding on what to do next");
       return("NONE");
      }
-     
+     /*
      // To be used for getting recent/latest price quotes
          MqlTick Latest_Price; // Structure to get the latest prices      
          SymbolInfoTick(market_name ,Latest_Price); // Assign current prices to structure 
@@ -59,7 +59,7 @@ string get_direction( ){
       
          dBid_Price = Latest_Price.bid;  // Current Bid price.
          dAsk_Price = Latest_Price.ask;  // Current Ask price.
-     
+     */
    CopyBuffer(MA_handle_1,0,0,MA_PERIOD_A,BBMidle);
    CopyBuffer(MA_handle_1,1,0,MA_PERIOD_A,BBUp);
    CopyBuffer(MA_handle_1,2,0,MA_PERIOD_A,BBLow);
