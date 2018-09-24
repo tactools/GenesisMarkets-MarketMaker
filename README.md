@@ -48,7 +48,6 @@ Download the github zip folder to your desktop , extract the contents and prepar
 |PlaceBuyFirst | **True** to trade Altcoins, **False** to trade on BTCUSDT |
 |VolumeLimitOrder | Insert the volume size that you want to submit to the market  |
 |VolumeMaxPosition | Insert the maximum volume(number of coins) that you want to accummulate |
-|ScaleOut | **True** Exit your position with the VolumeLimitOrder size. **False** exit 100% of position  |
 |ScaleIn | **True** Enter position with the VolumeLimitOrder size at better than Entry price until reaching VolumeMaxPosition. **False** only enter VolumeLimitOrder for open position size  |
 |PositionBuild | **True** Enter position with the VolumeLimitOrder size at worse Entry price until reaching VolumeMaxPosition. **False** only enter VolumeLimitOrder for open position size  |
 |MovingAverageLogic | You can select Moving Average Logic to only participate when market conditions are met   |
