@@ -2,6 +2,8 @@
 
 This is a MetaTrader 5 robot to trade at the brokerage [GenesisMarkets](https://genesismarkets.io/?ref=780028). By design this robot is adding liquidity to the exchange (placing Limit orders in the orderbook and waiting for market buy/sells to fill these orders). It is a **passive trading strategy** that waits for market participates to enter and exit the market that use the Order Type **Market Order**.
 
+**GenesisMarkets Account Type:** Base with BTC as the Currency. 
+
 ## Cost for Lifetime License
 **Special Offer:** 50% discount for GVTBTC trading pair only. The cost is 32 GVT if you want to use the robot soley on GVTBTC
 
