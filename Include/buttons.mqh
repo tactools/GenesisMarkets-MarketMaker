@@ -7,7 +7,7 @@
 #property copyright "Integer"
 #property link "https://login.mql5.com/ru/users/Integer"
 #property description "remove all dll imports"
-#property version "1.13" // @hedgebitcoin added new button for deleting orders
+#property version "1.15" // @hedgebitcoin added new button for deleting orders
 
  bool Sound_Button = false;
  bool User_Request = false;
