@@ -48,6 +48,8 @@ Download the github zip folder to your desktop , extract the contents and prepar
 | Input Variable | Value Description |
 | ----------- | ----------- |
 |PlaceBuyFirst | **True** to trade Altcoins, **False** to trade on BTCUSDT |
+|RiskExposurePecentage | Select the maximum amount of your balance to risk (expressed in percentage) 0.01 = 1% |
+|RiskLevelMultiplier | The smallest position size is calculated automatically at value 1, 2 = 2x, 5 = 5x, value = Multiplier |
 |VolumeLimitOrder | Insert the volume size that you want to submit to the market  |
 |VolumeMaxPosition | Insert the maximum volume(number of coins) that you want to accummulate |
 |ScaleIn | **True** Enter position with the VolumeLimitOrder size at better than Entry price until reaching VolumeMaxPosition. **False** only enter VolumeLimitOrder for open position size  |
