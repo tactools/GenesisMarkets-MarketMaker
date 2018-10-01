@@ -14,6 +14,8 @@ The cost is **64 GVT Tokens** for a **lifetime unrestricted license** for One of
 3. Download the GenesisMarketsMarketMaker.ex5 file from github
 4. Follow the setup guide below
 
+Accepting Bitcoin, Ethereum, Litecoin and most cryptos. Contact me for payment addresses. The price is quoted in GVT at all times. Get the GVT price at [CoinMarketCap](https://coinmarketcap.com/currencies/genesis-vision)
+
 ## Easy installation
 No prior knowledge about trading , robots, or the use of MetaTrader platform are required. Follow the instructions below for an easy installation process. If you are need help, ask in the support [chat](https://t.me/GenesisMarketsTrade)
 
