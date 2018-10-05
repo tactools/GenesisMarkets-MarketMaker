@@ -26,6 +26,7 @@ Download the github zip folder to your desktop , extract the contents and prepar
 3. Click on **Open Data Folder** and this will open the file directory where you place the following files
   * Open the **MQL5** folder
   * Open the **Include** folder and place the files from the github zip folder **include** , Overwrite the files if present
+  * Open the **Include/Trade** folder and place the files from the github zip folder **include/trade** , Overwrite the files if present
  * Open the **Experts** folder and place the files from the github zip folder **GenesisMarketsMarketMaker.ex5** 
   * restart the platform (close application and reopen)
   
@@ -65,7 +66,7 @@ Download the github zip folder to your desktop , extract the contents and prepar
 |ProfitPercentage|Put the Profit Percentage amount here (Goal for each cycle). If you want a goal of 0.1% , place a value of 0.001 |
 |MinimumSpread|Prevent MarketMaking unless the spread is equal to OR greater than the Commission+Profit amount|
 
-#RiskExposurePercentage
+# RiskExposurePercentage
 If you do not want to use the VolumeMaxPosition (You decide on the maximum number of coins that you want to accumulate => Tedious process), you can now allocate a percentage of your account balance. The robot will automatically calculate the VolumeMaxPosition for you. This makes life extremely easy. You simply make one Template file with your RiskPercentage, save the template with a name such as Risk 5%, then reuse this Template across all the markets that you want to trade. **In order to activate this feature you must place a value of ZERO for VolumeMaxPosition**. VolumeMaxPosition = 0
 
 # Market Making
