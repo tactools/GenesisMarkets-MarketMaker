@@ -65,6 +65,8 @@ Download the github zip folder to your desktop , extract the contents and prepar
 |ProfitPercentage|Put the Profit Percentage amount here (Goal for each cycle). If you want a goal of 0.1% , place a value of 0.001 |
 |MinimumSpread|Prevent MarketMaking unless the spread is equal to OR greater than the Commission+Profit amount|
 
+#RiskExposurePercentage
+If you do not want to use the VolumeMaxPosition (You decide on the maximum number of coins that you want to accumulate => Tedious process), you can now allocate a percentage of your account balance. The robot will automatically calculate the VolumeMaxPosition for you. This makes life extremely easy. You simply make one Template file with your RiskPercentage, save the template with a name such as Risk 5%, then reuse this Template across all the markets that you want to trade. **In order to activate this feature you must place a value of ZERO for VolumeMaxPosition**. VolumeMaxPosition = 0
 
 # Market Making
 Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards, sell them at a profit or loss. Market-making is solely buying alt coins and selling them at a profit right after buying them. The duration between buying and selling can be within seconds, minutes, or even hours depending on the trading activity of that altcoin.  
