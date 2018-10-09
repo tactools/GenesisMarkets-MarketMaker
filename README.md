@@ -4,6 +4,9 @@ This is a MetaTrader 5 robot to trade at the brokerage [GenesisMarkets](https://
 
 **GenesisMarkets Account Type:** Base with BTC as the Currency. 
 
+## Performance 
+Myfxbook [link](https://www.myfxbook.com/members/tradeFX4btc/gmtrade-beta-crypto-only/2686292)
+
 ## Cost for Lifetime License
 **Special Offer:** 50% discount for GVTBTC trading pair only. The cost is 32 GVT if you want to use the robot soley on GVTBTC
 
@@ -114,11 +117,14 @@ The market will always have swings of Up and down. If you want to filter out the
 # MarketMaker Scanner
 Place the **MarketMaker_Scanner.EX5** into your **MQL5/Experts** Folder and place the **newcomment.mqh** file into the **MQL5/Include** folder. Restart your MT5 platform. Add the **MarketMaker_Scanner.EX5** to any chart. **YourCommission** value is the cost to Open and Close a position. For example, GenesisMarkets will charge 0.15% to open and 0.15% to close a position without using GVT tokens for any discount. Therefore, in the **YourCommission** value you will place **0.003**. The scanner will then find all markets that have profitable marketmaking conditions that are available for you based on your commission cost. 
 
-## Privacy and Security
+# Privacy and Security
 You own the bot after payment and I don't have any control over the license or any oversight over your trading. The robot does not require any external DLL requirements to operate on your trading account ensuring that this robot operates solely on your behalf. 
 
-## Support, Updates, and Feedback
+# Support, Updates, and Feedback
 Join the [GenesisMarketsTrade](https://t.me/GenesisMarketsTrade) telegram chat group for support.  Updates will be released periodically to improve the performance.  Feedback is highly appreciated. 
+
+# Wiki 
+Link to github [wiki](https://github.com/fx4btc/GenesisMarkets-MarketMaker/wiki)
 
 
 
