@@ -84,12 +84,9 @@ Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards
 3. Decrease spread and in return this attracts more traders
 4. Increase daily volume turn over and in return this attracts more traders
 
-# Adjusting the VolumeMaxPosition
+# Dollar Cost Averaging (DCA)
 
-Sometimes you can accumulate your Maximum position size very quickly in an active market.  If you reach the **VolumeMaxPosition**, increase the size by two times the original amount and start the robot again. This method is called Dollar-Cost-Averaging and it will gradually help you close your position at a profit sooner than later. Therefore, never become too aggressive on your first VolumeMaxPosition size.  Only allocate about 1-10% of your Bitcoin/Ether on your first deployment of the robot. If needed, you can increase the VolumeMaxPosition size later.  
-
-**I would recommend using a small VoumeMaxPosition when you first start the robot and check the progress later.**
-
+Sometimes you can accumulate your Maximum position size very quickly in an active market.  If you reach the **RiskExposurePercentage**, increase the size by two times the original amount and start the robot again. This method is called Dollar-Cost-Averaging and it will gradually help you close your position at a profit sooner than later. Therefore, never become too aggressive on your first **RiskExposurePercentage** deployment.  Only allocate about 1-10% of your Bitcoin on your first deployment of the robot.
 
 # Profits on Average
 The Market-Maker robot will exit your positions at your desired profit. The market maker strategy ensures a profit is made before exiting the position and restarting the market-maker cycle again. The **profit percentage** is fully adjustable. Would you like to make 0.05%, 0.1%, or 1% per cycle (entering your position, and exiting the position). 
