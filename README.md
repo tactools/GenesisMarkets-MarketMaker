@@ -19,17 +19,6 @@ Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards
 3. Decrease spread and in return this attracts more traders
 4. Increase daily volume turn over and in return this attracts more traders
 
-# Cost for Lifetime License
-**Special Offer:** 50% discount for GVTBTC trading pair only. The cost is 32 GVT if you want to use the robot soley on GVTBTC
-
-The cost is **64 GVT Tokens** for a **lifetime unrestricted license** for One of your Live GenesisMarkets MetaTrader5 accounts. The license is locked to your account number and can not be changed. If you are trading with one BTC account and one ETH account (account currency of deposits), this will require two separate license. **The number of GVT tokens required to purchase a lifetime license will never increase or decrease.** I would like to create some demand for the GVT token during the alpha phase while we wait for the official release and global adoption.
-
-1. To pay for your license send **only 64 GVT Tokens** to this address 0xa05174933956a6d0e266fc5fd9804dbbfac42299
-2. Send your GenesisMarkets Account number with your transaction ID to telegram user @Hedgebitcoin
-3. Download the GenesisMarketsMarketMaker.ex5 file from github
-4. Follow the setup guide below
-
-Accepting Bitcoin, Ethereum, Litecoin and most cryptos. Contact me for payment addresses. The price is quoted in GVT at all times. Get the GVT price at [CoinMarketCap](https://coinmarketcap.com/currencies/genesis-vision)
 
 # Easy installation
 No prior knowledge about trading , robots, or the use of MetaTrader platform are required. Follow the instructions below for an easy installation process. If you are need help, ask in the support [chat](https://t.me/GenesisMarketsTrade)
@@ -101,9 +90,6 @@ Having the lowest commission results in more profits. If you pay less, you make 
 
 # Backtesting
 The core strategy relies on the OrderBook **volume of the bids/ask** that are available on the exchanges. Since this data changes rapidly we can not have an accurate backtest without the orderbook. 
-
-# Referral Program
-GenesisMarkets has an affiliate program where you earn commission for every trade that another trader makes under your affiliate link. If you want to promote the software to your group, have your friends sign up under your affiliate link so you can share the commission while they use the software. 
 
 # Privacy and Security
 You own the bot after payment and I don't have any control over the license or any oversight over your trading. The robot does not require any external DLL requirements to operate on your trading account ensuring that this robot operates solely on your behalf. 
