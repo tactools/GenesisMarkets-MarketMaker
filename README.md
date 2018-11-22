@@ -5,7 +5,7 @@ This is a MetaTrader 5 robot to trade at the brokerage [GenesisMarkets](https://
 **GenesisMarkets Account Type:** Base with BTC as the Currency. 
 
 ## Performance 
-Myfxbook [link](https://www.myfxbook.com/members/tradeFX4btc/gmtrade-beta-crypto-only/2686292)
+Genesis.Vision Manager [link](https://genesis.vision/investor/managers/hedgebitcoin)
 
 # Market Making
 Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards, sell them at a profit or loss. Market-making is solely buying alt coins and selling them at a profit right after buying them. The duration between buying and selling can be within seconds, minutes, or even hours depending on the trading activity of that altcoin.  
@@ -18,6 +18,16 @@ Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards
 2. Add liquidity to the market
 3. Decrease spread and in return this attracts more traders
 4. Increase daily volume turn over and in return this attracts more traders
+
+# How to buy a license
+
+1. Open a new **BTC-BASE** trading account at GenesisMarkets with a new email address if you already have an account. You must use our Affiliate Link as this pays for ongoing development and support for the robot. [GenesisMarkets](https://genesismarkets.io/?ref=780028)
+2. Send 64 GVT tokens [0x249f2864c2CDAd70bcf0ba701D49B58384629D6f] (https://etherscan.io/address/0x249f2864c2CDAd70bcf0ba701D49B58384629D6f)
+3. Fill out the google sheets with the following information
+a. Account Number of your trading account
+b. TxHash of your payment
+c. the first letter of your email address to cross-check with GenesisMarkets affiliate links
+d. Telegram Username such as [@Hedgebitcoin](t.me/Hedgebitcoin)
 
 
 # Easy installation
