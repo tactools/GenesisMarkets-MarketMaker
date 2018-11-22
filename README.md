@@ -21,13 +21,15 @@ Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards
 
 # How to buy a license
 
+**To prevent abuse of your personal license, there is a balance restriction. If you reach the balance restriction you will need to buy another license and open another GenesisMarkets trading account. There is no limit to how many robot license you can purchase.**
+
 1. Open a new **BTC-BASE** trading account at GenesisMarkets with a new email address if you already have an account. You must use our Affiliate Link as this pays for ongoing development and support for the robot. [GenesisMarkets](https://genesismarkets.io/?ref=780028)
 2. Send 64 GVT tokens [0x249f2864c2CDAd70bcf0ba701D49B58384629D6f] (https://etherscan.io/address/0x249f2864c2CDAd70bcf0ba701D49B58384629D6f)
 3. Fill out the google sheets with the following information
-a. Account Number of your trading account
-b. TxHash of your payment
-c. the first letter of your email address to cross-check with GenesisMarkets affiliate links
-d. Telegram Username such as [@Hedgebitcoin](t.me/Hedgebitcoin)
+* Account Number of your trading account
+* TxHash of your payment
+* the first letter of your email address to cross-check with GenesisMarkets affiliate links
+* Telegram Username such as [@Hedgebitcoin](t.me/Hedgebitcoin)
 
 
 # Easy installation
@@ -41,7 +43,7 @@ Download the github zip folder to your desktop , extract the contents and prepar
   * Open the **MQL5** folder
   * Open the **Include** folder and place the files from the github zip folder **include** , Overwrite the files if present
   * Open the **Include/Trade** folder and place the files from the github zip folder **include/trade** , Overwrite the files if present
- * Open the **Experts** folder and place the files from the github zip folder **GenesisMarketsMarketMaker.ex5** 
+  * Open the **Experts** folder and place the files from the github zip folder **GenesisMarketsMarketMaker.ex5** 
   * restart the platform (close application and reopen)
   
 ## Platform Setup Guide
