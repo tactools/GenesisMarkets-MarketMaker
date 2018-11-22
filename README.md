@@ -24,7 +24,9 @@ Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards
 **To prevent abuse of your personal license, there is a balance restriction. If you reach the balance restriction you will need to buy another license and open another GenesisMarkets trading account. There is no limit to how many robot license you can purchase.**
 
 1. Open a new **BTC-BASE** trading account at GenesisMarkets with a new email address if you already have an account. You must use our Affiliate Link as this pays for ongoing development and support for the robot. [GenesisMarkets](https://genesismarkets.io/?ref=780028)
-2. Send 64 GVT tokens [0x249f2864c2CDAd70bcf0ba701D49B58384629D6f] (https://etherscan.io/address/0x249f2864c2CDAd70bcf0ba701D49B58384629D6f)
+
+2. Send 64 GVT tokens [0x249f2864c2CDAd70bcf0ba701D49B58384629D6f](https://etherscan.io/address/0x249f2864c2CDAd70bcf0ba701D49B58384629D6f)
+
 3. Fill out the google sheets with the following information
 * Account Number of your trading account
 * TxHash of your payment
