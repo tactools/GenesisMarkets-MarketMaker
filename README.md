@@ -81,26 +81,13 @@ Download the github zip folder to your desktop , extract the contents and prepar
 |ProfitPercentage|Put the Profit Percentage amount here (Goal for each cycle). If you want a goal of 0.1% , place a value of 0.001 |
 |MinimumSpread|Prevent MarketMaking unless the spread is equal to OR greater than the Commission+Profit amount|
 
-## Parameters and Setting
-The strategies work as they are designed to. The user only needs to select Risk they wish to trade with, the Altcoin that they wish to trade on, and the Chart time-frame they wish to use for the strategy logic. You also have the ability to change the moving average periods to suit your own view on the market. **The default values are only an example.**
-
-## RiskExposurePercentage
-If you do not want to use the VolumeMaxPosition (You decide on the maximum number of coins that you want to accumulate => Tedious process), you can now allocate a percentage of your account balance. The robot will automatically calculate the VolumeMaxPosition for you. This makes life extremely easy. You simply make one Template file with your RiskPercentage, save the template with a name such as Risk 5%, then reuse this Template across all the markets that you want to trade. **In order to activate this feature you must place a value of ZERO for VolumeMaxPosition**. VolumeMaxPosition = 0
 
 ## Dollar Cost Averaging (DCA)
 
 Sometimes you can accumulate your Maximum position size very quickly in an active market.  If you reach the **RiskExposurePercentage**, increase the size by two times the original amount and start the robot again. This method is called Dollar-Cost-Averaging and it will gradually help you close your position at a profit sooner than later. Therefore, never become too aggressive on your first **RiskExposurePercentage** deployment.  Only allocate about 1-10% of your Bitcoin on your first deployment of the robot.
 
-## Low Risk vs High Risk
-The Level of risk can be adjusted by two components, **RiskExposurePercentage** and **HowManyLevels**. 
-
-
 ## Profits on Average
 The Market-Maker robot will exit your positions at your desired profit. The market maker strategy ensures a profit is made before exiting the position and restarting the market-maker cycle again. The **profit percentage** is fully adjustable. Would you like to make 0.05%, 0.1%, or 1% per cycle (entering your position, and exiting the position). 
-
-
-## GVT Token Discount Tiers
-Having the lowest commission results in more profits. If you pay less, you make more trades than another user who has to pay a higher commission because your limit orders can be filled before the other user. This means your robot ( market-making) will make you more profit in the longrun by entering and exiting more positions. However, you can still use this robot at the Highest Commission tier and still make money.
 
 # Backtesting
 The core strategy relies on the OrderBook **volume of the bids/ask** that are available on the exchanges. Since this data changes rapidly we can not have an accurate backtest without the orderbook. 
@@ -115,8 +102,7 @@ Join the [GenesisMarketsTrade](https://t.me/GenesisMarketsTrade) telegram chat g
 Link to github [wiki](https://github.com/fx4btc/GenesisMarkets-MarketMaker/wiki)
 
 
-# MarketMaker Scanner
-Place the **MarketMaker_Scanner.EX5** into your **MQL5/Experts** Folder and place the **newcomment.mqh** file into the **MQL5/Include** folder. Restart your MT5 platform. Add the **MarketMaker_Scanner.EX5** to any chart. **YourCommission** value is the cost to Open and Close a position. For example, GenesisMarkets will charge 0.15% to open and 0.15% to close a position without using GVT tokens for any discount. Therefore, in the **YourCommission** value you will place **0.003**. The scanner will then find all markets that have profitable marketmaking conditions that are available for you based on your commission cost. 
+
 
 
 
