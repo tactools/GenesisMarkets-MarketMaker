@@ -27,7 +27,7 @@ Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards
 
 2. Send 64 GVT tokens [0x249f2864c2CDAd70bcf0ba701D49B58384629D6f](https://etherscan.io/address/0x249f2864c2CDAd70bcf0ba701D49B58384629D6f)
 
-3. Fill out the google sheets with the following information
+3. Fill out the [google sheets](https://docs.google.com/spreadsheets/d/1M5fCzfyjS4eT4gxLzluJA15UeO1ExDcSfrILpST3Aiw) with the following information
 * Account Number of your trading account
 * TxHash of your payment
 * the first letter of your email address to cross-check with GenesisMarkets affiliate links
