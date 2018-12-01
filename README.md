@@ -5,8 +5,8 @@ This is a MetaTrader 5 robot to trade at the brokerage [GenesisMarkets](https://
 **GenesisMarkets Account Type:** Base with BTC as the Currency. 
 
 ## Performance 
-Genesis.Vision Manager [link](https://genesis.vision/investor/managers/hedgebitcoin)
-Retired: [GMTrade ETH](https://genesis.vision/manager/programs/GMTrade-ETH), [GMTrade BTC 133](https://genesis.vision/manager/programs/GMTrade-ETH)
+Genesis.Vision Manager [link](https://genesis.vision/investor/managers/hedgebitcoin) 
+Retired: [GMTrade ETH](https://genesis.vision/manager/programs/GMTrade-ETH), [GMTrade BTC 133](https://genesis.vision/manager/programs/GMTrade-BTC-133)
 
 # Market Making
 Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards, sell them at a profit or loss. Market-making is solely buying alt coins and selling them at a profit right after buying them. The duration between buying and selling can be within seconds, minutes, or even hours depending on the trading activity of that altcoin.  
