@@ -25,13 +25,20 @@ Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards
 
 1. Open a new **BTC-BASE** trading account at GenesisMarkets with a new email address if you already have an account. You must use our Affiliate Link as this pays for ongoing development and support for the robot. [GenesisMarkets](https://genesismarkets.io/?ref=780028)
 
-2. Send 64 GVT tokens [0x249f2864c2CDAd70bcf0ba701D49B58384629D6f](https://etherscan.io/address/0x249f2864c2CDAd70bcf0ba701D49B58384629D6f)
+2. Send CryptoCurrency equivalent of $500 USD to address
+* BTC = [1J2Ltc9MUZdYTDt7Dgz8fGuc6XZPMp3tKV](https://www.blockchain.com/btc/address/1J2Ltc9MUZdYTDt7Dgz8fGuc6XZPMp3tKV)
+* ETH = [0xDB62488D2986d780D3cbF17DB03DCDf6aDE201cc](https://etherscan.io/address/0xDB62488D2986d780D3cbF17DB03DCDf6aDE201cc)
+* GVT = [0x5e3215839d72328f696856ffe878aFa907453921](https://etherscan.io/address/0x5e3215839d72328f696856ffe878aFa907453921)
+* USDt = coming soon
 
 3. Fill out the [google sheets](https://docs.google.com/spreadsheets/d/1M5fCzfyjS4eT4gxLzluJA15UeO1ExDcSfrILpST3Aiw) with the following information
 * Account Number of your trading account
+* Payment Type
 * TxHash of your payment
 * the first letter of your email address to cross-check with GenesisMarkets affiliate links
 * Telegram Username such as [@Hedgebitcoin](t.me/Hedgebitcoin)
+
+4. Robot will be sent via Telegram. Future updates will be available on github for downloading 
 
 
 # Easy installation
