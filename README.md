@@ -31,6 +31,12 @@ Within the  Genesis Markets Brokerage,  we can only buy alt coins and afterwards
 * GVT = [0x5e3215839d72328f696856ffe878aFa907453921](https://etherscan.io/address/0x5e3215839d72328f696856ffe878aFa907453921)
 * USDt = coming soon
 
+[BTC Exchange Rate](https://www.binance.com/en/trade/BTC_USDT)
+
+[ETH Exchange Rate](https://www.binance.com/en/trade/ETH_USDT)
+
+[GVT Exchange Rate](https://www.binance.com/en/trade/GVT_BTC)
+
 3. Fill out the [google sheets](https://docs.google.com/spreadsheets/d/1M5fCzfyjS4eT4gxLzluJA15UeO1ExDcSfrILpST3Aiw) with the following information
 * Account Number of your trading account
 * Payment Type
